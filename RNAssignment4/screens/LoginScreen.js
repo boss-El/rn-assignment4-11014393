@@ -62,7 +62,7 @@ const LoginScreen = ({ navigation }) => {
         <Text style={styles.centerText}>Or continue with</Text>
         <View style={styles.rightLine}></View>
       </View>
-      <View style={[styles.authContainer, { width: 216, height: 56, alignSelf: 'center' }]}>
+      <View style={[styles.authContainer, { marginTop: 40, width: 216, height: 56, alignSelf: 'center' }]}>
         <TouchableOpacity style={styles.authIcon}>
           <Icon name="logo-apple" size={30} color="#000" />
         </TouchableOpacity>
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#AFB0B6',
     paddingHorizontal: 16,
-    width: '100%', // Full width
+    width: '100%', 
   },
   button: {
     height: 52,
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#356899',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '100%', // Full width
+    width: '100%', 
   },
   buttonText: {
     color: '#FFFFFF',
@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 30, // Added space at the top
+    marginTop: 30, 
   },
   leftLine: {
     flex: 1,
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   authContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 20,
+    marginTop: 40,
   },
   authIcon: {
     width: 26,
@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
     fontWeight: '400',
     lineHeight: 17.71,
     textAlign: 'center',
-    marginTop: 40, // Increased margin at the top
+    marginTop: 40, 
   },
   register: {
     color: '#356899',
